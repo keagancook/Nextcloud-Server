@@ -132,11 +132,6 @@ sudo -u www-data php /var/www/html/nextcloud/updater/updater.phar
 
 ---
 
-## Troubleshooting
-### Common Issues
-- **500 Internal Server Error**: Check file permissions and PHP version.
-- **Database Connection Error**: Verify credentials in `config.php`.
-
 ### Logs
 - Apache logs: `/var/log/apache2/error.log`
 - Nextcloud logs: `/var/www/html/nextcloud/data/nextcloud.log`
